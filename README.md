@@ -75,13 +75,6 @@ http://localhost:3000/connect?ip=46.203.182.30&port=30120&server=Yerel%20Sunucu
 http://localhost:3000/connect?ip=192.168.1.100&port=30121&server=Özel%20Sunucu
 ```
 
-## 🎮 Kontroller
-
-| Tuş/Eylem | İşlev |
-|-----------|-------|
-| **ESC** | Geri sayımı atla ve hemen bağlan |
-| **Enter** | Geri sayımı atla ve hemen bağlan |
-| **Dokunma** (Mobil) | Geri sayımı atla ve hemen bağlan |
 
 ## 📁 Proje Yapısı
 
@@ -155,27 +148,14 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-## 🤝 Katkıda Bulunma
 
-1. Depoyu fork edin
-2. Özellik dalınızı oluşturun (`git checkout -b feature/harika-ozellik`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Harika özellik ekle'`)
-4. Dalınıza push yapın (`git push origin feature/harika-ozellik`)
-5. Pull Request açın
-
-## 📝 Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
 ## 🆘 Destek
 
 Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa:
 
-1. [Issues](https://github.com/kullaniciadi/fivem-connector/issues) sayfasını kontrol edin
-2. Detaylı bilgilerle yeni bir issue oluşturun
-3. Varsa tarayıcı konsol loglarınızı ekleyin
+Discord:@alsiaw
 
-## 🙏 Teşekkürler
 
 - [Express.js](https://expressjs.com/) ile geliştirildi
 - [EJS](https://ejs.co/) ile şablonlama
