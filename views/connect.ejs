@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiveM Server Bağlantısı - <%= serverName %></title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="/media/fivem.mp4" type="video/mp4">
+        Your browser does not support video playback.
+    </video>
+
+    <audio id="background-audio" loop>
+        <source src="/media/background-music.mp3.m4a" type="audio/mp4">
+        <source src="/media/background-music.m4a" type="audio/mp4">
+        <source src="/media/background-music.mp3" type="audio/mpeg">
+        <source src="/media/background-music.wav" type="audio/wav">
+        Your browser does not support audio playback.
+    </audio>
+
+    <div id="server-name"><%= serverName %></div>
+    <div id="countdown">00:00</div>
+    
+    <div id="server-data" 
+         data-ip="<%= ip %>" 
+         data-port="<%= port %>" 
+         data-server="<%= serverName %>" 
+         data-countdown="<%= countdown %>" 
+         style="display: none;"></div>
+    
+    <script>
+        const serverData = document.getElementById('server-data');
+        window.serverConfig = {
+            ip: serverData.dataset.ip,
+            port: serverData.dataset.port,
+            serverName: serverData.dataset.server,
+            countdownTime: parseInt(serverData.dataset.countdown)
+        };
+    </script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

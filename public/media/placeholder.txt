@@ -1,0 +1,13 @@
+Bu klasöre fivem.mp4 dosyanızı koyabilirsiniz.
+
+Video dosyası yoksa arka plan gradient olarak görünecektir.
+
+Desteklenen formatlar:
+- MP4 (önerilen)
+- WebM
+- OGV
+
+Video boyutu önerileri:
+- 1920x1080 (Full HD)
+- 1280x720 (HD)
+- Dosya boyutu: 10MB altında olması önerilir
