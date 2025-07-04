@@ -202,4 +202,4 @@ Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa:
 
 ---
 
-**❤️ ile FiveM topluluğu için yapıldı**
+**Made By ❤️ alsiaw**
