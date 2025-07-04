@@ -181,24 +181,6 @@ Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa:
 - [EJS](https://ejs.co/) ile şablonlama
 - FiveM topluluğundan ilham alındı
 
-## 🔧 Sorun Giderme
-
-### Yaygın Sorunlar
-
-**Site açılmıyor:**
-- Node.js'in yüklü olduğundan emin olun
-- `npm install` komutunu çalıştırın
-- Port 3000'in kullanımda olmadığını kontrol edin
-
-**Video oynatılmıyor:**
-- `public/media/fivem.mp4` dosyasının var olduğunu kontrol edin
-- Video formatının desteklendiğinden emin olun
-- Video yoksa gradyan arka plan otomatik olarak gösterilir
-
-**FiveM açılmıyor:**
-- FiveM'in bilgisayarınızda yüklü olduğundan emin olun
-- Tarayıcınızın `fivem://` protokolüne izin verdiğini kontrol edin
-- Manuel bağlantı için gösterilen IP:Port adresini FiveM'de kullanın
 
 ---
 
